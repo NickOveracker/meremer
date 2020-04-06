@@ -95,6 +95,12 @@ let help = document.getElementById("help");
 let options = document.getElementsByClassName("options");
 let gameover = document.getElementsByClassName("gameover");
 
+function helpClicked(char){
+    answer.value = char;
+    answer.focus();
+    helpCounter++;
+}
+
 start = async(callback)=>{
     Array.from(options).forEach(option=>{option.style.setProperty("display", "none")});
     progress.style.setProperty("display", "block");
@@ -106,14 +112,10 @@ start = async(callback)=>{
         progress.innerText = `${progressCount}/${kanaArray.length}`;
         setTimeout(()=>{
             box.style.setProperty('animation', 'none');
-            answer.style.setProperty('border-bottom', '2px solid #6665d2')}, 300)
+            answer.style.setProperty('border-bottom', '2px solid #6665d2')}, 300);
+        await help.setAttribute("onclick", `helpClicked('${kana.value}')`);
         await new Promise(resolve=>{
             char.innerText = kana.char;
-            help.addEventListener("click", ()=>{
-                answer.value = kana.value;
-                answer.focus();
-                helpCounter++;
-            });
             answer.value = '';
             answer.focus();
             answer.addEventListener("keyup", (e)=>{
