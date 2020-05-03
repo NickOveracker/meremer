@@ -85,6 +85,15 @@ start = async(callback)=>{
                 console.log('incorrect');
                 box.style.setProperty('animation', 'shake 0.7s cubic-bezier(.36,.07,.19,.97) both');
                 answer.style.setProperty('border-bottom', '2px solid red');
+              
+                // Wait for confirmation to continue.
+                await new Promise(resolve=>{
+                answer.focus();
+                answer.addEventListener("keyup", (e)=>{
+                  if(e.keyCode === 13){
+                      resolve();
+                  }
+              });
             }
         });
     }
