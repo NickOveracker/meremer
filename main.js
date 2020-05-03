@@ -32,6 +32,7 @@ let incorrect = [];
 let helpCounter = 0;
 let progressCount = 0;
 var katakana = true;
+var helpEnabled = false;
 let box = document.getElementById("box");
 let answer = document.getElementById("answer");
 let progress = document.getElementById("progress");
@@ -41,9 +42,15 @@ let options = document.getElementsByClassName("options");
 let gameover = document.getElementsByClassName("gameover");
 
 function helpClicked(char){
+    /* Only increment counter the first time the help button is clicked. */
+    if(!helpEnabled)
+    {
+      helpEnabled = true;
+      helpCounter++;
+    }
     answer.value = char;
     answer.focus();
-    helpCounter++;
+    }
 }
 
 start = async(callback)=>{
@@ -54,6 +61,7 @@ start = async(callback)=>{
     answer.style.setProperty("display", "inline");
     for(const kana of kanaArray){
         progressCount++;
+        helpEnabled = false;
         progress.innerText = `${progressCount}/${kanaArray.length}`;
         setTimeout(()=>{
             box.style.setProperty('animation', 'none');
@@ -74,6 +82,7 @@ start = async(callback)=>{
                 console.log('correct');
             } else {
                 incorrect.push(kana.char);
+                answer.value = "Correct answer: " + kana.value;
                 console.log('incorrect');
                 box.style.setProperty('animation', 'shake 0.7s cubic-bezier(.36,.07,.19,.97) both');
                 answer.style.setProperty('border-bottom', '2px solid red');
