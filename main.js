@@ -75,7 +75,7 @@ start = async(callback)=>{
                     resolve();
                 }
             });
-        }).then(()=>{
+        }).then(async(callback)=>{
             if(answer.value == kana.value){
                 correct.push(kana.char);
                 console.log('correct');
@@ -86,8 +86,13 @@ start = async(callback)=>{
                 box.style.setProperty('animation', 'shake 0.7s cubic-bezier(.36,.07,.19,.97) both');
                 answer.style.setProperty('border-bottom', '2px solid red');
               
-                // Wait for confirmation to continue.
-                sleep(1000)
+                await new Promise(resolve=>{
+                  answer.focus();
+                  answer.addEventListener("keyup", (e)=>{
+                      if(e.keyCode === 13){
+                          resolve();
+                      }
+                });
             }
         });
     }
