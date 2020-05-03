@@ -43,7 +43,7 @@ body {
 }
 
 .box h1 {
-    font-size: 10vh;
+    font-size: 20vh;
 }
 
 .help {
@@ -142,6 +142,6 @@ footer a {
 
 @media only screen and (max-width: 500px) {
     .box h1 {
-        font-size: 25vh;
+        font-size: 10vh;
     }
 }
