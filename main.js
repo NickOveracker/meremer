@@ -50,7 +50,6 @@ function helpClicked(char){
     }
     answer.value = char;
     answer.focus();
-    }
 }
 
 start = async(callback)=>{
