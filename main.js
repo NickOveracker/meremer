@@ -92,6 +92,7 @@ start = async(callback)=>{
                       if(e.keyCode === 13){
                           resolve();
                       }
+                  });
                 });
             }
             callback2();
