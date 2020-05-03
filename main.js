@@ -1,7 +1,7 @@
 var katakanaArray = [{char: "ア", value: "a"}, {char: "イ (vowel)", value: "i" }, {char: "ウ (vowel)", value: "u"}, {char: "エ", value: "e"}, {char: "オ", value: "o"}, 
                      {char: "カ", value: "ka"}, {char: "キ", value: "ki"}, {char: "ク", value: "ku"}, {char: "ケ", value: "ke"}, {char: "コ", value: "ko"}, 
                      {char: "サ", value: "sa"}, {char: "シ", value: "si"}, {char: "ス", value: "su"}, {char: "セ", value: "se"}, {char: "ソ", value: "so"},  
-                     {char: "タ", value: "ta"}, {char: "ツゥ", value: "tu"}, {char: "テ", value: "te"}, {char: "ト", value: "to"}, 
+                     {char: "タ", value: "ta"}, {char: "トゥ", value: "tu"}, {char: "テ", value: "te"}, {char: "ト", value: "to"}, 
                      {char: "チャ", value: "ca"}, {char: "チ", value: "ci"}, {char: "チュ", value: "cu"}, {char: "チェ", value: "ce"}, {char: "チョ", value: "co"},
                      {char: "ナ", value: "na"}, {char: "ニ", value: "ni"}, {char: "ヌ", value: "nu"}, {char: "ネ", value: "ne"}, {char: "ノ", value: "no"},
                      {char: "ハ", value: "ha"}, {char: "ヒ", value: "hi"}, {char: "フ", value: "hu"}, {char: "ヘ", value: "he"}, {char: "ホ", value: "ho"}, 
