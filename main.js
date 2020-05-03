@@ -76,12 +76,12 @@ start = async(callback)=>{
                 }
             });
         }).then(async()=>{
-            if(answer.value == kana.value){
+            if(answer.value.toLowerCase().trim() == kana.value){
                 correct.push(kana.char);
                 console.log('correct');
             } else {
                 incorrect.push(kana.char);
-                answer.value = "Correct answer: " + kana.value;
+                answer.value = kana.value;
                 console.log('incorrect');
                 box.style.setProperty('animation', 'shake 0.7s cubic-bezier(.36,.07,.19,.97) both');
                 answer.style.setProperty('border-bottom', '2px solid red');
