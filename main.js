@@ -87,13 +87,7 @@ start = async(callback)=>{
                 answer.style.setProperty('border-bottom', '2px solid red');
               
                 // Wait for confirmation to continue.
-                await new Promise(resolve=>{
-                answer.focus();
-                answer.addEventListener("keyup", (e)=>{
-                  if(e.keyCode === 13){
-                      resolve();
-                  }
-              });
+                sleep(1000)
             }
         });
     }
