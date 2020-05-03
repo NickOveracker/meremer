@@ -93,7 +93,10 @@ document.getElementById("katakana").addEventListener("click", ()=>{
     }
 });
 
+// We don't need the initial menu at this point, but uncomment this when more options are added.
+/*
 document.getElementById("start").addEventListener("click", ()=>{
+*/
     if(katakana){
         kanaArray.push.apply(kanaArray, katakanaArray);
     }
@@ -113,4 +116,6 @@ document.getElementById("start").addEventListener("click", ()=>{
             document.getElementById("refresh").addEventListener("click", ()=>{location.reload()});
         });
     }
+/*
 });
+*/
