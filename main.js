@@ -87,7 +87,9 @@ start = async(callback)=>{
     callback();
 };
 
-document.getElementById("katakana").addEventListener("click", ()=>{
+// The below lines can be uncommented when we add additional review options.
+// But for now, only the basic syllabary can be reviewed.
+/*document.getElementById("katakana").addEventListener("click", ()=>{
     if(katakana){
         katakana = false;
         document.getElementById("katakana").style.setProperty('background-color', '#363636');
@@ -98,6 +100,7 @@ document.getElementById("katakana").addEventListener("click", ()=>{
 });
 
 document.getElementById("start").addEventListener("click", ()=>{
+*/
     if(katakana){
         kanaArray.push.apply(kanaArray, katakanaArray);
     }
@@ -117,4 +120,5 @@ document.getElementById("start").addEventListener("click", ()=>{
             document.getElementById("refresh").addEventListener("click", ()=>{location.reload()});
         });
     }
-});
+/*
+}); */
