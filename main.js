@@ -10,7 +10,7 @@ var katakanaArray = [{char: "ア", value: "a"}, {char: "イ (vowel)", value: "i"
                      {char: "ヤ", value: "ya"}, {char: "ユ", value: "yu"}, {char: "イェ", value: "ye"}, {char: "ヨ", value: "yo"}, 
                      {char: "ラ", value: "ra"}, {char: "リ", value: "ri"}, {char: "ル", value: "ru"}, {char: "レ", value: "re"}, {char: "ロ", value: "ro"}, 
                      {char: "ワ", value: "wa"},  {char: "ウェ", value: "we"}, {char: "ウォ", value: "wo"},
-                     {char: "ン", value: "m"},  {char: "イ (consonant)", value: "y" }, {char: "ウ (consonant)", value: "w"},
+                     {char: "ン", value: "m"},  {char: "イ (cons.)", value: "y" }, {char: "ウ (cons.)", value: "w"},
 ];
 
 var kanaArray = [];
