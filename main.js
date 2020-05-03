@@ -31,11 +31,7 @@ let correct = [];
 let incorrect = [];
 let helpCounter = 0;
 let progressCount = 0;
-var hiragana = false;
-var katakana = true;
-var dblhiragana = false;
-var dblkatakana = false;
-var extkatakana = false;
+var katakana = false;
 let box = document.getElementById("box");
 let answer = document.getElementById("answer");
 let progress = document.getElementById("progress");
@@ -87,9 +83,7 @@ start = async(callback)=>{
     callback();
 };
 
-// The below lines can be uncommented when we add additional review options.
-// But for now, only the basic syllabary can be reviewed.
-/*document.getElementById("katakana").addEventListener("click", ()=>{
+document.getElementById("katakana").addEventListener("click", ()=>{
     if(katakana){
         katakana = false;
         document.getElementById("katakana").style.setProperty('background-color', '#363636');
@@ -100,7 +94,6 @@ start = async(callback)=>{
 });
 
 document.getElementById("start").addEventListener("click", ()=>{
-*/
     if(katakana){
         kanaArray.push.apply(kanaArray, katakanaArray);
     }
@@ -120,5 +113,4 @@ document.getElementById("start").addEventListener("click", ()=>{
             document.getElementById("refresh").addEventListener("click", ()=>{location.reload()});
         });
     }
-/*
-}); */
+});
