@@ -75,7 +75,7 @@ start = async(callback)=>{
                     resolve();
                 }
             });
-        }).then(async(callback2)=>{
+        }).then(async()=>{
             if(answer.value == kana.value){
                 correct.push(kana.char);
                 console.log('correct');
@@ -95,7 +95,6 @@ start = async(callback)=>{
                   });
                 });
             }
-            callback2();
         });
     }
     callback();
