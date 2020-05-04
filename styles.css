@@ -123,6 +123,10 @@ body {
     width: 95%;
 }
 
+header {
+    padditing-bottom: 1px;
+}
+
 header span {
     opacity: 70%;
     right: 0;
