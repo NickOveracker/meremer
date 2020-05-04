@@ -97,8 +97,8 @@ body {
     margin-bottom: 2px;
     border-radius: 4px;
     cursor: pointer;
-    padding: 16px;
-    width: 95%;
+    padding: 10px;
+    width: 45%;
 }
 
 #hiragana, #incorrect {
