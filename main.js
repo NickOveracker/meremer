@@ -241,10 +241,7 @@ document.getElementById("consonants").addEventListener("click", ()=>{
     }
 });
 
-// We don't need the initial menu at this point, but uncomment this when more options are added.
-/*
 document.getElementById("start").addEventListener("click", ()=>{
-*/
     if(aSeriesSelected){
         kanaArray.push.apply(kanaArray, aSeries);
     }
@@ -300,6 +297,4 @@ document.getElementById("start").addEventListener("click", ()=>{
             document.getElementById("refresh").addEventListener("click", ()=>{location.reload()});
         });
     }
-/*
 });
-*/
