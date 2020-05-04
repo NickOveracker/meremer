@@ -123,7 +123,7 @@ body {
     width: 95%;
 }
 
-footer span {
+header span {
     opacity: 70%;
     right: 0;
     bottom: 0;
@@ -133,7 +133,7 @@ footer span {
     text-align: center;
 }
 
-footer a {
+header a {
     text-decoration: none;
     font-weight: bold;
     color: white;
