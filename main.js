@@ -232,11 +232,11 @@ document.getElementById("wSeries").addEventListener("click", ()=>{
 });
 
 document.getElementById("consonants").addEventListener("click", ()=>{
-    if(consonantsEnabled){
-        consonantsEnabled = false;
+    if(consonantsSelected){
+        consonantsSelected = false;
         document.getElementById("consonants").style.setProperty('background-color', '#363636');
     } else {
-        consonantsEnabled = true;
+        consonantsSelected = true;
         document.getElementById("consonants").style.setProperty('background-color', '#6665d2');
     }
 });
