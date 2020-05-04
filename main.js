@@ -65,6 +65,7 @@ function helpClicked(char){
 
 start = async(callback)=>{
     Array.from(options).forEach(option=>{option.style.setProperty("display", "none")});
+    document.getElementById("title_header").remove();
     progress.style.setProperty("display", "block");
     help.style.setProperty("display", "block");
     char.style.setProperty("display", "block");
