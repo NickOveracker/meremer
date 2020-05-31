@@ -50,18 +50,18 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     float: right;
-    color: #6665d2;
+    color: #a76918;
     font-size: 20px;
     font-weight: bold;
-    background-color: #1f1f1f;
+    background-color: #35190a;
     border-radius: 20px;
-    border: 2px solid #6665d2;
+    border: 2px solid #a76918;
     outline: none;
 }
 
 .help:hover{
-    color: lightgreen;
-    border: 2px solid lightgreen;
+    color: #f0c586;
+    border: 2px solid #f0c586;
 }
 
 .box input[type=text] {
@@ -69,15 +69,15 @@ body {
     width: 30%;
     font-size: 18px;
     color: #faeecc;
-    background-color: #1f1f1f;
+    background-color: #35190a;
     border: none;
-    border-bottom: 2px solid #363636;
+    border-bottom: 2px solid #faeecc;
     outline: none;
     margin-bottom: 15px;
 }
 
 .box input[type=text]:focus {
-    border-bottom: 2px solid #6665d2;
+    border-bottom: 2px solid #faeecc;
     color: transparent;
     text-shadow: 0 0 0 #faeecc;
 }
@@ -116,7 +116,7 @@ body {
     color: #faeecc;
     border: none;
     outline: none;
-    background-color: #363636;
+    background-color: #773709;
     margin-bottom: 2px;
     border-radius: 4px;
     padding: 16px;
