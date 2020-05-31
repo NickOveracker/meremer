@@ -38,7 +38,7 @@ body {
     background-color: #1f1f1f;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: #faeecc;
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ body {
     text-align: center;
     width: 30%;
     font-size: 18px;
-    color: white;
+    color: #faeecc;
     background-color: #1f1f1f;
     border: none;
     border-bottom: 2px solid #363636;
@@ -79,21 +79,21 @@ body {
 .box input[type=text]:focus {
     border-bottom: 2px solid #6665d2;
     color: transparent;
-    text-shadow: 0 0 0 white;
+    text-shadow: 0 0 0 #faeecc;
 }
 
 .box input[type=text]::placeholder {
     color: transparent;
-    text-shadow: 0 0 0 white;
+    text-shadow: 0 0 0 #faeecc;
 }
 
 .options {
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: #faeecc;
     border: none;
     outline: none;
-    background-color: #363636;
+    background-color: #773709;
     margin-bottom: 2px;
     border-radius: 4px;
     cursor: pointer;
@@ -106,14 +106,14 @@ body {
 }
 
 #start, #refresh {
-    background-color: #6665d2;
+    background-color: #a76918;
     margin-bottom: 15px;
 }
 
 .gameover {
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: #faeecc;
     border: none;
     outline: none;
     background-color: #363636;
@@ -132,15 +132,15 @@ header span {
     right: 0;
     bottom: 0;
     padding: 0 5px 0;
-    background-color: #1f1f1f;
-    color: white;
+    background-color: #35190a;
+    color: #faeecc;
     text-align: center;
 }
 
 header a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: #faeecc;
 }
 
 @media only screen and (max-width: 800px) {
