@@ -140,130 +140,130 @@ start = async(callback)=>{
 document.getElementById("aSeries").addEventListener("click", ()=>{
     if(aSeriesSelected){
         aSeriesSelected = false;
-        document.getElementById("aSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("aSeries").style.setProperty('background-color', '#773709');
     } else {
         aSeriesSelected = true;
-        document.getElementById("aSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("aSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("kSeries").addEventListener("click", ()=>{
     if(kSeriesSelected){
         kSeriesSelected = false;
-        document.getElementById("kSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("kSeries").style.setProperty('background-color', '#773709');
     } else {
         kSeriesSelected = true;
-        document.getElementById("kSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("kSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("sSeries").addEventListener("click", ()=>{
     if(sSeriesSelected){
         sSeriesSelected = false;
-        document.getElementById("sSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("sSeries").style.setProperty('background-color', '#773709');
     } else {
         sSeriesSelected = true;
-        document.getElementById("sSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("sSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("tSeries").addEventListener("click", ()=>{
     if(tSeriesSelected){
         tSeriesSelected = false;
-        document.getElementById("tSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("tSeries").style.setProperty('background-color', '#773709');
     } else {
         tSeriesSelected = true;
-        document.getElementById("tSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("tSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("cSeries").addEventListener("click", ()=>{
     if(cSeriesSelected){
         cSeriesSelected = false;
-        document.getElementById("cSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("cSeries").style.setProperty('background-color', '#773709');
     } else {
         cSeriesSelected = true;
-        document.getElementById("cSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("cSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("nSeries").addEventListener("click", ()=>{
     if(nSeriesSelected){
         nSeriesSelected = false;
-        document.getElementById("nSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("nSeries").style.setProperty('background-color', '#773709');
     } else {
         nSeriesSelected = true;
-        document.getElementById("nSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("nSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("hSeries").addEventListener("click", ()=>{
     if(hSeriesSelected){
         hSeriesSelected = false;
-        document.getElementById("hSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("hSeries").style.setProperty('background-color', '#773709');
     } else {
         hSeriesSelected = true;
-        document.getElementById("hSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("hSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("pSeries").addEventListener("click", ()=>{
     if(pSeriesSelected){
         pSeriesSelected = false;
-        document.getElementById("pSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("pSeries").style.setProperty('background-color', '#773709');
     } else {
         pSeriesSelected = true;
-        document.getElementById("pSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("pSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("mSeries").addEventListener("click", ()=>{
     if(mSeriesSelected){
         mSeriesSelected = false;
-        document.getElementById("mSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("mSeries").style.setProperty('background-color', '#773709');
     } else {
         mSeriesSelected = true;
-        document.getElementById("mSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("mSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("ySeries").addEventListener("click", ()=>{
     if(ySeriesSelected){
         ySeriesSelected = false;
-        document.getElementById("ySeries").style.setProperty('background-color', '#363636');
+        document.getElementById("ySeries").style.setProperty('background-color', '#773709');
     } else {
         ySeriesSelected = true;
-        document.getElementById("ySeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("ySeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("rSeries").addEventListener("click", ()=>{
     if(rSeriesSelected){
         rSeriesSelected = false;
-        document.getElementById("rSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("rSeries").style.setProperty('background-color', '#773709');
     } else {
         rSeriesSelected = true;
-        document.getElementById("rSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("rSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("wSeries").addEventListener("click", ()=>{
     if(wSeriesSelected){
         wSeriesSelected = false;
-        document.getElementById("wSeries").style.setProperty('background-color', '#363636');
+        document.getElementById("wSeries").style.setProperty('background-color', '#773709');
     } else {
         wSeriesSelected = true;
-        document.getElementById("wSeries").style.setProperty('background-color', '#6665d2');
+        document.getElementById("wSeries").style.setProperty('background-color', '#a76918');
     }
 });
 
 document.getElementById("consonants").addEventListener("click", ()=>{
     if(closedSelected){
         closedSelected = false;
-        document.getElementById("consonants").style.setProperty('background-color', '#363636');
+        document.getElementById("consonants").style.setProperty('background-color', '#773709');
     } else {
         closedSelected = true;
-        document.getElementById("consonants").style.setProperty('background-color', '#6665d2');
+        document.getElementById("consonants").style.setProperty('background-color', '#a76918');
     }
 });
 
